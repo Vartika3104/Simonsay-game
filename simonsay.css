@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+.boxes{
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height:20rem;
+    width:20rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.boxes div{
+    width: 100px;
+    height: 100px;
+    border: 8px solid black;
+    margin:5px;
+    border-radius:1.75rem;
+}
+.box1{
+   background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: yellow;
+}
+.flash{
+    background-color: white;
+}
